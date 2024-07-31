@@ -1,0 +1,69 @@
+body {
+    background-image: url(./Без\ названия\ \(1\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+
+    background-image: linear-gradient(to right, #ecebd5, #911a9f);
+  }
+  
+  aside img {
+    width: 55px;
+    float: left;
+}
+
+  li {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+aside ul li:hover, aside ul a:hover {
+    color:#dca6d8;
+    text-decoration: none;
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+
+h1 {
+    color: #6a0cad;
+    margin-top: 100px;
+    margin-left: 310px;
+}
+h2 {
+  color: #6a0cad;
+  margin-left: 190px;
+}
+h3 {
+  color: #6a0cad;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+.alert {
+  margin-left: 38%;
+  margin-top: 30px;
+}
+button {
+  color: #f9f9f9;
+  border-radius: 10px;
+  border-color: #dc32d1;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #c791e4;
+  margin-left: 10px
+}

@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to right, #911a9f, #ecebd5);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+
+    background-image: linear-gradient(to right, #ecebd5, #911a9f);
+  }
+  
+  aside img {
+    width: 55px;
+    float: left;
+}
+
+  li {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+
+aside ul li:hover, aside ul a:hover {
+    color:#dca6d8;
+    text-decoration: none;
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+
+label {
+    float: left;
+    margin-left: 10%;
+    color: #fff;
+    font-size: 30px;
+}
+
+input {
+    width: 30px;
+    height: 25px;
+}
+
+button {
+    float: left;
+    margin-left: 30%;
+    background-color: rgb(205, 151, 206);
+    width: 70px;
+    height: 40px;
+}
+
+select {
+    width: 180px;
+    height: 45px;
+    float: left;
+    margin-left: 10%;
+}
